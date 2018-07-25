@@ -1,7 +1,7 @@
-const About = () => (
-  <div>
-    <p>This is the About page!</p>
-  </div>
-);
+import Layout from "../components/MyLayout";
 
-export default About;
+export default () => (
+  <Layout>
+    <p>Hello from About</p>
+  </Layout>
+);
